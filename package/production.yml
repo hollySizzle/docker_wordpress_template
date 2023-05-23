@@ -4,3 +4,8 @@ services:
         environment:
             VIRTUAL_HOST: $VIRTUAL_DOMAIN
             LETSENCRYPT_HOST: $VIRTUAL_DOMAIN
+
+networks:
+    default:
+        external:
+            name: shared
