@@ -1,6 +1,5 @@
 .vscode/
 .DS_Store
 .work-space
-./package/volume/*
-# package/volume/*
+package/volume/*
 !.gitkeep
