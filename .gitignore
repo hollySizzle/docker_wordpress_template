@@ -3,3 +3,4 @@
 .work-space
 ./package/volume/*
 !.gitkeep
+package/volume/*
